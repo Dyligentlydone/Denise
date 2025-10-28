@@ -53,7 +53,7 @@ export default function AboutPage() {
                   </div>
                   <div className="absolute inset-0 bg-gradient-to-t from-sage-900/60 to-transparent flex items-end p-6">
                     <div>
-                      <h3 className="text-2xl font-serif font-bold text-white">Denise Smith, LCSW</h3>
+                      <h3 className="text-2xl font-serif font-bold text-white">Denise Potter, LCSW</h3>
                       <p className="text-sage-100">Licensed Clinical Social Worker</p>
                     </div>
                   </div>
@@ -74,27 +74,22 @@ export default function AboutPage() {
                 
                 <div className="prose prose-lg text-sage-700 max-w-none">
                   <p className="mb-4">
-                    Welcome to my practice. I'm Denise Smith, a licensed clinical social worker with over 10 years of experience 
-                    helping individuals, couples, and families navigate life's challenges and discover their inner strength.
+                    You've spent so long taking care of everyone else—pushing through, holding it together, doing what needs to be done. On the outside, it might look fine. But inside, you can feel the tension—the constant hum of stress, the moments of disconnection, the sense that you've lost touch with who you really are. You're tired of just coping. You want to feel grounded, alive, and at peace in your own skin. You're ready to understand why you respond the way you do—and how to finally shift those patterns, not just manage them.
                   </p>
                   
                   <p className="mb-4">
-                    My approach is warm, collaborative, and tailored to your unique needs. I believe in creating a safe, 
-                    non-judgmental space where you can explore your thoughts and feelings freely.
+                    Through an integrative approach—blending psychotherapy, somatic work, and hypnotherapy—we'll explore the deeper layers of your experience with compassion and curiosity. Together, we'll calm your nervous system, uncover the roots of what's been holding you back, and gently heal the places that still carry old pain.
                   </p>
                   
                   <p className="mb-6">
-                    I specialize in anxiety, depression, relationship issues, and life transitions, using evidence-based 
-                    therapies including Cognitive Behavioral Therapy (CBT), Acceptance and Commitment Therapy (ACT), and 
-                    mindfulness-based approaches.
+                    This is your invitation to come home to yourself—to build resilience, presence, and authentic connection. You don't have to do it alone. Let's take the next step together.
                   </p>
                   
                   <div className="bg-sage-50 p-6 rounded-lg border-l-4 border-sage-500">
                     <p className="text-sage-800 italic mb-4">
-                      "My mission is to empower you with the tools and insights needed to create meaningful, lasting change 
-                      in your life and relationships."
+                      "Starting therapy takes courage, and I'm here to meet you with compassion, curiosity, and respect. Let's take the next step together—to explore your true self, clarify where you want to be, and discover how to get there."
                     </p>
-                    <p className="text-sage-700 font-medium">— Denise Smith, LCSW</p>
+                    <p className="text-sage-700 font-medium">— Denise Potter, LCSW</p>
                   </div>
                 </div>
               </motion.div>
