@@ -12,19 +12,16 @@ const fadeInUp = {
 export default function AboutPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-sage-50 to-cream-light">
-      {/* Hero Section */}
-      <section className="relative overflow-hidden pt-32 pb-16 md:pt-40 md:pb-24">
+      {/* Decorative Line */}
+      <section className="relative overflow-hidden pt-20 pb-8">
         <div className="container mx-auto px-4">
           <motion.div
             initial="hidden"
             animate="visible"
             variants={fadeInUp}
-            className="max-w-4xl mx-auto text-center"
+            className="max-w-4xl mx-auto"
           >
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-sage-800 mb-6">
-              About <span className="text-sage-600">Me</span>
-            </h1>
-            <div className="w-24 h-1 bg-sage-500 mx-auto mb-8"></div>
+            <div className="w-24 h-1 bg-sage-500 mx-auto"></div>
           </motion.div>
         </div>
       </section>
