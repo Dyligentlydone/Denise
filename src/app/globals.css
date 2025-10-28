@@ -12,15 +12,21 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
+/* Remove dark mode override to prevent black background */
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--background, #f8f5f0);
+  color: var(--foreground, #2d3748);
+  font-family: var(--font-poppins), sans-serif;
+}
+
+/* Ensure all sections use the same background */
+section, div, main {
+  background-color: inherit;
 }
