@@ -37,9 +37,11 @@ export default function Header() {
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link href="/" className="flex items-center">
-              <span className="text-2xl font-serif font-semibold text-gray-900">
-                Therapy Practice
-              </span>
+              <img 
+                src="/images/logo.png" 
+                alt="Denise's Logo" 
+                className="h-12 w-auto"
+              />
             </Link>
           </div>
 
@@ -58,7 +60,7 @@ export default function Header() {
             ))}
             <Link
               href="/book"
-              className="ml-4 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-sage-600 hover:bg-sage-700 transition-colors"
+              className="ml-4 inline-flex items-center px-4 py-2 border-2 border-[#84b3a8] text-sm font-medium rounded-md text-[#84b3a8] bg-sage-600 hover:bg-sage-700 hover:border-white transition-colors"
             >
               Book a Session
             </Link>
@@ -105,7 +107,7 @@ export default function Header() {
           ))}
           <Link
             href="/book"
-            className="block w-full text-center mt-4 px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-sage-600 hover:bg-sage-700"
+            className="w-full flex items-center justify-center px-4 py-2 border-2 border-[#84b3a8] rounded-md shadow-sm text-sm font-medium text-[#84b3a8] bg-sage-600 hover:bg-sage-700 hover:border-white mt-2 transition-colors"
             onClick={() => setIsOpen(false)}
           >
             Book a Session

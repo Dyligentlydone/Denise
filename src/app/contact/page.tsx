@@ -63,10 +63,9 @@ export default function ContactPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-sage-50 to-cream-light">
+    <div className="min-h-screen" style={{ backgroundColor: '#e7dec4' }}>
       {/* Hero Section */}
-      {/* Hero Section */}
-      <section className="relative overflow-hidden pt-32 pb-16 md:pt-40 md:pb-24 bg-soft-beige">
+      <section className="relative overflow-hidden pt-32 pb-16 md:pt-40 md:pb-24" style={{ backgroundColor: '#e7dec4' }}>
         <div className="absolute inset-0 opacity-20">
           <div className="absolute inset-0 bg-[url('/images/pattern.svg')] bg-repeat opacity-10"></div>
         </div>
@@ -90,7 +89,7 @@ export default function ContactPage() {
       </section>
 
       {/* Contact Content */}
-      <section className="py-16 bg-cream-light">
+      <section className="py-16" style={{ backgroundColor: '#e7dec4' }}>
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
             <div className="flex flex-col lg:flex-row gap-12">

@@ -11,10 +11,16 @@ const fadeInUp = {
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-soft-beige">
+    <div className="min-h-screen" style={{ backgroundColor: '#e7dec4' }}>
       {/* Hero Section */}
-      <section className="relative overflow-hidden pt-32 pb-20 md:pt-40 md:pb-28 bg-soft-beige">
-        <div className="absolute inset-0 bg-soft-beige"></div>
+      <section 
+        className="relative overflow-hidden pt-32 pb-20 md:pt-40 md:pb-28"
+        style={{ backgroundColor: '#e7dec4' }}
+      >
+        <div 
+          className="absolute inset-0"
+          style={{ backgroundColor: '#e7dec4' }}
+        ></div>
         
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
@@ -26,7 +32,7 @@ export default function Home() {
               className="mb-8"
             >
               <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif font-bold text-sage-800 leading-tight mb-6">
-                Helping You Heal, <span className="text-sage-600">Grow, and Thrive</span>
+                <span style={{ color: '#e89576' }}>Helping You Heal, Grow, and Thrive</span>
               </h1>
               
               <p className="text-lg md:text-xl text-sage-700 max-w-3xl mx-auto mb-10">
@@ -36,13 +42,15 @@ export default function Home() {
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link 
                   href="/contact" 
-                  className="px-8 py-4 bg-gray-900 hover:bg-gray-800 text-white font-medium rounded-lg transition-colors duration-300 transform hover:scale-105"
+                  className="px-8 py-4 font-medium rounded-lg transition-colors duration-300 transform hover:scale-105"
+                  style={{ backgroundColor: '#84b3a8', color: 'white' }}
                 >
                   Free Consultation
                 </Link>
                 <Link 
                   href="/about" 
-                  className="px-8 py-4 border-2 border-sage-600 text-sage-700 hover:bg-sage-50 font-medium rounded-lg transition-colors duration-300"
+                  className="px-8 py-4 font-medium rounded-lg transition-colors duration-300"
+                  style={{ border: '2px solid #84b3a8', color: '#84b3a8' }}
                 >
                   Learn More
                 </Link>
@@ -103,17 +111,17 @@ export default function Home() {
               {
                 title: 'Individual Therapy',
                 description: 'Personalized one-on-one sessions to help you overcome challenges and achieve personal growth.',
-                icon: '🧠'
+                icon: ''
               },
               {
                 title: 'Couples Counseling',
                 description: 'Strengthen your relationship through improved communication and deeper connection.',
-                icon: '💑'
+                icon: ''
               },
               {
                 title: 'Family Therapy',
                 description: 'Help your family navigate challenges and build stronger, healthier relationships.',
-                icon: '👨‍👩‍👧‍👦'
+                icon: ''
               }
             ].map((service, index) => (
               <motion.div

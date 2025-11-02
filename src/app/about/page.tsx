@@ -11,7 +11,7 @@ const fadeInUp = {
 
 export default function AboutPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-sage-50 to-cream-light">
+    <div className="min-h-screen" style={{ backgroundColor: '#e7dec4' }}>
       {/* Decorative Line */}
       <section className="relative overflow-hidden pt-20 pb-8">
         <div className="container mx-auto px-4">

@@ -84,9 +84,9 @@ const resources = [
 
 export default function ResourcesPage() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen" style={{ backgroundColor: '#e7dec4' }}>
       {/* Hero Section */}
-      <section className="relative overflow-hidden pt-32 pb-16 md:pt-40 md:pb-24 bg-soft-beige">
+      <section className="relative overflow-hidden pt-32 pb-16 md:pt-40 md:pb-24" style={{ backgroundColor: '#e7dec4' }}>
         <div className="container mx-auto px-4">
           <motion.div
             initial="hidden"

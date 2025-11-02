@@ -14,33 +14,49 @@ const services = [
     id: 'individual',
     title: 'Individual Therapy',
     icon: <FaHeart className="w-8 h-8 text-sage-600" />,
-    description: 'Personalized one-on-one sessions to help you overcome challenges and achieve personal growth.',
+    description: 'Personalized one-on-one sessions to help you explore your inner world, overcome challenges, and create meaningful change.',
     benefits: [
-      'Address anxiety, depression, and stress',
-      'Develop coping strategies',
-      'Improve self-esteem and confidence',
-      'Navigate life transitions',
-      'Process trauma and grief'
+      'Reduce symptoms of anxiety, depression, and stress',
+      'Heal from past trauma and grief',
+      'Strengthen self-awareness, confidence, and emotional balance',
+      'Navigate life transitions with clarity and purpose',
+      'Develop grounded coping tools for lasting resilience'
     ],
-    approach: 'Using evidence-based approaches like CBT and ACT, I help you develop practical tools to manage difficult emotions and create meaningful change in your life.',
+    approach: 'Through a holistic blend of psychotherapy, somatic therapy, and hypnotherapy, we’ll explore the patterns, emotions, and beliefs shaping your life. Together, we’ll calm your nervous system, heal from old wounds, and create a path toward greater peace and fulfillment.',
     price: '$150 per 50-minute session',
     cta: 'Start Your Healing Journey'
   },
   {
     id: 'couples',
-    title: 'Couples Counseling',
+    title: 'Couples Therapy & Relationship Healing',
     icon: <FaUsers className="w-8 h-8 text-sage-600" />,
-    description: 'Strengthen your relationship through improved communication and deeper connection.',
+    description: 'Rebuild trust, communication, and connection in a supportive and nonjudgmental space.',
     benefits: [
-      'Improve communication skills',
-      'Resolve conflicts constructively',
+      'Improve communication and emotional understanding',
+      'Resolve recurring conflicts with compassion',
       'Rebuild trust and intimacy',
-      'Navigate major life changes',
-      'Enhance emotional connection'
+      'Navigate transitions, loss, or family changes together',
+      'Strengthen emotional and physical connection'
     ],
-    approach: 'Drawing from the Gottman Method and Emotionally Focused Therapy, I help couples create stronger, more fulfilling relationships.',
+    approach: 'Drawing from Emotionally Focused Therapy (EFT), somatic awareness, and relational healing, sessions help each partner feel heard and understood while identifying patterns that cause disconnection. Together, we’ll foster empathy, rebuild trust, and create a stronger, more connected relationship.',
+    price: '$150 per 50-minute session',
+    cta: 'Start Your Healing Journey'
+  },
+  {
+    id: 'family',
+    title: 'Family Reunification Therapy',
+    icon: <FaUsers className="w-8 h-8 text-sage-600" />,
+    description: 'A guided, compassionate process to help families rebuild trust, repair relationships, and reconnect after separation or conflict.',
+    benefits: [
+      'Reestablish healthy communication and emotional safety',
+      'Address the impact of separation, trauma, or strained relationships',
+      'Support children and parents in rebuilding secure attachment',
+      'Develop empathy, trust, and mutual understanding',
+      'Create a foundation for lasting family connection and stability'
+    ],
+    approach: 'Grounded in trauma-informed family systems therapy and attachment-based work, I provide a structured and supportive space for families to reconnect. Together, we’ll explore each person’s experiences with care and neutrality, address patterns that have caused disconnection, and rebuild a sense of belonging and harmony within the family.',
     price: '$180 per 60-minute session',
-    cta: 'Strengthen Your Relationship'
+    cta: 'Begin Family Healing'
   },
   {
     id: 'family',
@@ -62,55 +78,39 @@ const services = [
     id: 'anxiety',
     title: 'Anxiety Treatment',
     icon: <FaBrain className="w-8 h-8 text-sage-600" />,
-    description: 'Evidence-based treatment to help you manage anxiety and regain control of your life.',
+    description: 'Integrative Therapy for Stress, Trauma, and Life Transitions',
     benefits: [
-      'Reduce anxiety symptoms',
-      'Learn relaxation techniques',
-      'Challenge negative thought patterns',
-      'Build confidence',
-      'Develop coping strategies'
+      'Reduce anxiety, overwhelm, and emotional reactivity',
+      'Heal from past trauma and grief',
+      'Strengthen self-awareness and emotional balance',
+      'Improve relationships and personal boundaries',
+      'Develop resilience, presence, and inner peace'
     ],
-    approach: 'Using CBT, mindfulness, and exposure therapy, I help you understand and manage anxiety in a supportive environment.',
+    approach: 'A compassionate, holistic approach to help you calm your nervous system, process past experiences, and feel more grounded in the present. Through an integrative blend of psychotherapy, somatic therapy, and hypnotherapy, we\'ll explore the deeper layers of your experience with curiosity and care. Together, we\'ll uncover the roots of stress and disconnection, release stored tension, and support healing that lasts.',
     price: '$150 per 50-minute session',
     cta: 'Find Relief from Anxiety'
   },
   {
     id: 'trauma',
-    title: 'Trauma Therapy',
+    title: 'Trauma Therapy & Somatic Healing',
     icon: <FaHandHoldingHeart className="w-8 h-8 text-sage-600" />,
-    description: 'Heal from past trauma in a safe, supportive environment.',
+    description: 'Gently process and release the effects of past trauma in a safe, grounded, and compassionate space.',
     benefits: [
-      'Process traumatic experiences',
-      'Reduce PTSD symptoms',
-      'Develop healthy coping mechanisms',
-      'Rebuild trust and safety',
-      'Regain control of your life'
+      'Heal unresolved trauma and emotional pain',
+      'Reduce symptoms of PTSD, anxiety, and dissociation',
+      'Reconnect with your body and restore a sense of safety',
+      'Develop emotional regulation and self-compassion',
+      'Rebuild trust, confidence, and resilience'
     ],
-    approach: 'Using trauma-informed care and evidence-based techniques, I provide a compassionate space for healing and recovery.',
+    approach: 'Through a trauma-informed and integrative approach combining psychotherapy, somatic therapy, and hypnotherapy, we\'ll explore how trauma has shaped your mind and body. Together, we\'ll calm the nervous system, release stored tension, and create lasting healing—helping you feel more at ease, connected, and empowered.',
     price: '$160 per 50-minute session',
     cta: 'Begin Healing'
   },
-  {
-    id: 'stress',
-    title: 'Stress Management',
-    icon: <FaBalanceScale className="w-8 h-8 text-sage-600" />,
-    description: 'Learn effective strategies to manage stress and improve your overall well-being.',
-    benefits: [
-      'Identify stress triggers',
-      'Develop healthy coping skills',
-      'Improve work-life balance',
-      'Enhance relaxation',
-      'Build resilience'
-    ],
-    approach: 'Through mindfulness, cognitive-behavioral techniques, and personalized strategies, I help you reduce stress and increase life satisfaction.',
-    price: '$150 per 50-minute session',
-    cta: 'Reduce Your Stress'
-  }
 ];
 
 export default function ServicesPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-sage-50 to-cream-light">
+    <div className="min-h-screen" style={{ backgroundColor: '#e7dec4' }}>
       {/* Hero Section */}
       <section className="relative overflow-hidden pt-32 pb-16 md:pt-40 md:pb-24">
         <div className="container mx-auto px-4">
@@ -179,16 +179,12 @@ export default function ServicesPage() {
                     <h4 className="font-semibold text-sage-800 mb-2">Approach:</h4>
                     <p className="text-sage-700">{service.approach}</p>
                   </div>
-                  
-                  <div className="text-lg font-semibold text-sage-700 mb-6">
-                    {service.price}
-                  </div>
                 </div>
                 
                 <div className="p-6 bg-sage-50 border-t border-sage-100">
                   <Link
                     href={`/book?service=${service.id}`}
-                    className="block w-full text-center px-6 py-3 bg-sage-600 hover:bg-sage-700 text-white font-medium rounded-lg transition-colors duration-300"
+                    className="block w-full text-center px-6 py-2 border-2 border-[#84b3a8] text-[#84b3a8] hover:bg-sage-700 hover:border-white hover:text-white font-medium rounded-md transition-colors duration-300"
                   >
                     {service.cta}
                   </Link>
@@ -220,7 +216,7 @@ export default function ServicesPage() {
                     <h3 className="text-xl font-semibold text-sage-800 mb-3">Insurance</h3>
                     <p className="mb-4">I am an in-network provider with several major insurance plans, including:</p>
                     <ul className="space-y-2 mb-6">
-                      {['Aetna', 'Blue Cross Blue Shield', 'Cigna', 'United Healthcare', 'Oscar Health'].map((provider, i) => (
+                      {['Blue Cross Blue Shield', 'Blue Care Network', 'Aetna', 'Priority Health', 'United Healthcare', 'ASR'].map((provider, i) => (
                         <li key={i} className="flex items-start">
                           <span className="text-sage-500 mr-2 mt-1">•</span>
                           <span>{provider}</span>
@@ -260,7 +256,7 @@ export default function ServicesPage() {
                 ">
                   <Link 
                     href="/contact" 
-                    className="inline-block px-8 py-4 bg-sage-600 hover:bg-sage-700 text-white font-medium rounded-lg transition-colors duration-300"
+                    className="inline-block px-8 py-2 border-2 border-[#84b3a8] text-[#84b3a8] hover:bg-sage-700 hover:border-white hover:text-white font-medium rounded-md transition-colors duration-300"
                   >
                     Have Questions? Contact Me
                   </Link>
