@@ -77,8 +77,8 @@ export default function ContactPage() {
             variants={fadeInUp}
             className="max-w-4xl mx-auto text-center text-gray-900"
           >
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold mb-6">
-              Get in <span className="text-sage-700">Touch</span>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold mb-6" style={{ color: '#84b3a8' }}>
+              Get in Touch
             </h1>
             <p className="text-lg md:text-xl text-gray-700 max-w-3xl mx-auto">
               I'm here to answer your questions and help you take the first step toward healing and growth.
@@ -184,6 +184,7 @@ export default function ContactPage() {
                           <option value="anxiety">Anxiety Treatment</option>
                           <option value="trauma">Trauma Therapy</option>
                           <option value="stress">Stress Management</option>
+                          <option value="other">Other</option>
                         </select>
                       </div>
                     </div>
@@ -344,52 +345,6 @@ export default function ContactPage() {
                   </div>
                 </div>
               </motion.div>
-            </div>
-          </div>
-        </div>
-      </section>
-      
-      {/* Map Section */}
-      <section className="bg-cream-light py-12">
-        <div className="container mx-auto px-4">
-          <div className="max-w-6xl mx-auto">
-            <div className="bg-white rounded-xl shadow-soft overflow-hidden">
-              <div className="h-80 w-full bg-sage-100/50 flex items-center justify-center border-b border-sage-200">
-                <div className="text-center p-6">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Office Location</h3>
-                  <p className="text-gray-700 mb-4">1234 Therapy Lane, Suite 200<br />San Francisco, CA 94110</p>
-                  <a 
-                    href="https://maps.google.com" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center text-sage-700 hover:text-sage-800 font-medium"
-                  >
-                    <FaMapMarkerAlt className="mr-2" />
-                    Open in Google Maps
-                  </a>
-                </div>
-              </div>
-            </div>
-            
-            <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6">
-              <div className="bg-white p-6 rounded-xl shadow-soft border border-sage-100">
-                <h4 className="font-semibold text-gray-900 mb-2">Parking</h4>
-                <p className="text-gray-700 text-sm">
-                  Free parking is available in the building's underground garage. Please bring your parking ticket for validation.
-                </p>
-              </div>
-              <div className="bg-white p-6 rounded-xl shadow-soft border border-sage-100">
-                <h4 className="font-semibold text-gray-900 mb-2">Public Transit</h4>
-                <p className="text-gray-700 text-sm">
-                  The office is a 5-minute walk from the Powell Street BART station and is served by multiple Muni bus lines.
-                </p>
-              </div>
-              <div className="bg-white p-6 rounded-xl shadow-soft border border-sage-100">
-                <h4 className="font-semibold text-gray-900 mb-2">Accessibility</h4>
-                <p className="text-gray-700 text-sm">
-                  The office is wheelchair accessible. Please let me know if you need any accommodations for your visit.
-                </p>
-              </div>
             </div>
           </div>
         </div>

@@ -109,19 +109,19 @@ export default function AboutPage() {
             {[
               {
                 title: 'Client-Centered Care',
-                description: 'Your unique experiences and goals guide our work together. I tailor my approach to meet your specific needs and circumstances.'
+                description: 'Your story, pace, and goals guide every step of our work together. I tailor each session to your unique needs, meeting you with compassion, curiosity, and respect.'
               },
               {
-                title: 'Evidence-Based',
-                'description': 'I utilize therapies that have been scientifically proven to be effective, including CBT, ACT, and mindfulness-based approaches.'
+                title: 'Integrative & Mind-Body Approach',
+                'description': 'Drawing from psychotherapy, somatic therapy, and hypnotherapy, I integrate mind, body, and emotion to support deep, lasting healing.'
               },
               {
                 title: 'Holistic Perspective',
-                'description': 'I consider all aspects of your well-being—emotional, mental, physical, and social—in our work together.'
+                'description': 'Our work considers all parts of your experience—mental, emotional, physical, and relational—so healing can take root on every level.'
               },
               {
-                title: 'Strength-Based',
-                'description': 'I help you identify and build upon your existing strengths to create positive change in your life.'
+                title: 'Strengths-Oriented Healing',
+                'description': 'Together, we’ll uncover and build upon your innate strengths and resilience, helping you reconnect with your capacity for growth, balance, and self-trust.'
               }
             ].map((item, index) => (
               <motion.div 
@@ -206,7 +206,7 @@ export default function AboutPage() {
             <div className="mt-12 text-center">
               <Link 
                 href="/contact" 
-                className="inline-block px-8 py-4 bg-sage-600 hover:bg-sage-700 text-white font-medium rounded-lg transition-colors duration-300"
+                className="inline-flex items-center px-6 py-3 border-2 border-[#84b3a8] text-base font-medium rounded-md text-white bg-[#84b3a8] hover:bg-sage-700 hover:border-white transition-colors"
               >
                 Schedule a Free Consultation
               </Link>
