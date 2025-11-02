@@ -19,13 +19,13 @@ const lora = Lora({
 });
 
 export const metadata: Metadata = {
-  title: "Therapy Practice | Compassionate Care for Healing & Growth",
+  title: "Authentic Self",
   description: "Professional therapy services for individuals, couples, and families. Specializing in anxiety, depression, and relationship issues. Book your session today.",
   keywords: ["therapy", "counseling", "mental health", "anxiety", "depression", "couples therapy", "family therapy"],
   viewport: "width=device-width, initial-scale=1",
   themeColor: "#f8f5f0",
   openGraph: {
-    title: "Therapy Practice | Healing & Growth",
+    title: "Authentic Self",
     description: "Professional therapy services for individuals, couples, and families.",
     url: "https://yourtherapypractice.com",
     siteName: "Therapy Practice",

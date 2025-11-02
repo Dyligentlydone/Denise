@@ -136,10 +136,10 @@ export default function ServicesPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-sage-800 mb-4">
-              How I Can Help You
+              How I Can Support Your Healing
             </h2>
             <p className="text-sage-600 max-w-3xl mx-auto">
-              Each therapeutic journey is unique. Explore the services I offer to find the right fit for your needs.
+              Every person's path to healing is unique. Through an integrative blend of psychotherapy, somatic therapy, and hypnotherapy, I offer a compassionate space to explore, heal, and reconnect with your authentic self.
             </p>
             <div className="w-24 h-1 bg-sage-500 mx-auto mt-4"></div>
           </div>
