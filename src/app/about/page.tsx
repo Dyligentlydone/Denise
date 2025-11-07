@@ -37,21 +37,53 @@ export default function AboutPage() {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6 }}
-                className="w-full lg:w-1/3"
+                className="w-full lg:w-1/3 relative"
               >
-                <div className="relative overflow-hidden rounded-2xl shadow-xl">
-                  <div className="aspect-square bg-sage-100">
-                    {/* Placeholder for profile image */}
-                    <div className="w-full h-full flex items-center justify-center text-sage-300">
-                      <svg className="w-32 h-32" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                        <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd"></path>
-                      </svg>
-                    </div>
-                  </div>
-                  <div className="absolute inset-0 bg-gradient-to-t from-sage-900/60 to-transparent flex items-end p-6">
+                <div className="relative w-full aspect-square overflow-hidden rounded-lg shadow-lg">
+                  <img
+                    src="/images/headshot.png"
+                    alt="Denise Potter, LCSW"
+                    className="w-full h-full"
+                    style={{
+                      display: 'block',
+                      position: 'relative',
+                      zIndex: 1,
+                      objectFit: 'cover',
+                      objectPosition: 'center 30%',
+                      width: '100%',
+                      height: '100%'
+                    }}
+                    onError={(e) => {
+                      console.error('Image failed to load');
+                    }}
+                  />
+                  
+                  {/* Gradient overlay */}
+                  <div style={{
+                    position: 'absolute',
+                    top: 0,
+                    left: 0,
+                    width: '100%',
+                    height: '100%',
+                    background: 'linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent)',
+                    display: 'flex',
+                    alignItems: 'flex-end',
+                    padding: '1.5rem',
+                    zIndex: 53
+                  }}>
                     <div>
-                      <h3 className="text-2xl font-serif font-bold text-white">Denise Potter, LCSW</h3>
-                      <p className="text-sage-100">Licensed Clinical Social Worker</p>
+                      <h3 style={{
+                        fontSize: '1.5rem',
+                        fontFamily: 'serif',
+                        fontWeight: 'bold',
+                        color: 'white',
+                        margin: 0
+                      }}>Denise Potter, LCSW</h3>
+                      <p style={{
+                        color: '#e6fffa',
+                        margin: '0.25rem 0 0 0',
+                        fontSize: '0.875rem'
+                      }}>Licensed Clinical Social Worker</p>
                     </div>
                   </div>
                 </div>
