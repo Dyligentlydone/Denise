@@ -163,13 +163,11 @@ export default function AboutPage() {
                 <ul className="space-y-4">
                   <li>
                     <p className="font-medium">Master of Social Work (MSW)</p>
-                    <p className="text-sage-600">University of California, Berkeley</p>
-                    <p className="text-sm text-sage-500">Graduated: 2012</p>
+                    <p className="text-sage-600">Western Michigan University</p>
                   </li>
                   <li>
-                    <p className="font-medium">Bachelor of Arts in Psychology</p>
-                    <p className="text-sage-600">University of Washington</p>
-                    <p className="text-sm text-sage-500">Graduated: 2010</p>
+                    <p className="font-medium">Bachelor of Science (BS) in Criminal Justice</p>
+                    <p className="text-sage-600">Grand Valley State University</p>
                   </li>
                 </ul>
               </motion.div>
@@ -182,22 +180,18 @@ export default function AboutPage() {
                 className="bg-cream-50 p-6 rounded-lg border-l-4 border-sage-500"
               >
                 <h3 className="text-xl font-semibold text-sage-800 mb-2">Licenses & Certifications</h3>
-                <ul className="space-y-2">
+                <ul className="space-y-3">
                   <li className="flex items-start">
                     <span className="text-sage-600 mr-2">•</span>
-                    <span>Licensed Clinical Social Worker (LCSW) #12345</span>
+                    <span>Licensed Master Social Worker (LMSW) — State of Michigan</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-sage-600 mr-2">•</span>
-                    <span>Certified in Cognitive Behavioral Therapy</span>
+                    <span>Certified Clinical Hypnotherapist</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-sage-600 mr-2">•</span>
-                    <span>Trauma-Informed Care Certification</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-sage-600 mr-2">•</span>
-                    <span>Gottman Method Couples Therapy - Level 2</span>
+                    <span>Somatic Therapy / Trauma-Informed Care Training</span>
                   </li>
                 </ul>
               </motion.div>
