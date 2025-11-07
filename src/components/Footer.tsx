@@ -70,9 +70,9 @@ export default function Footer() {
 
         {/* Copyright */}
         <div className="border-t border-sage-300 mt-12 pt-8 text-center text-gray-600">
-          <p>© {currentYear} Therapy Practice. All rights reserved.</p>
+          <p>© {currentYear} Authentic Self Holistic Psychotherapy. All rights reserved.</p>
           <p className="text-sm mt-2">
-            Website designed with care and compassion.
+            Website by: <a href="https://www.dyligent.solutions/" target="_blank" rel="noopener noreferrer" className="text-sage-600 hover:underline">&#123;Dyligent&#125;</a>
           </p>
         </div>
       </div>
