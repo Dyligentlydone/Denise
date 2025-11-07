@@ -90,15 +90,15 @@ export default function Header() {
           isOpen ? 'max-h-96' : 'max-h-0'
         }`}
       >
-        <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-soft-beige">
+        <div className="px-4 py-3 space-y-2 sm:px-5 bg-soft-beige/95 backdrop-blur-sm">
           {navLinks.map((link) => (
             <Link
               key={link.name}
               href={link.href}
-              className={`block px-3 py-2 rounded-md text-base font-medium ${
+              className={`block px-4 py-3 rounded-lg text-base font-medium transition-colors ${
                 pathname === link.href
-                  ? 'bg-sage-100 text-sage-800'
-                  : 'text-gray-700 hover:bg-sage-50 hover:text-sage-700'
+                  ? 'bg-sage-100/80 text-sage-800 shadow-sm'
+                  : 'text-gray-700 hover:bg-sage-50/80 hover:text-sage-700 bg-white/70 backdrop-blur-sm'
               }`}
               onClick={() => setIsOpen(false)}
             >
@@ -107,7 +107,7 @@ export default function Header() {
           ))}
           <Link
             href="/book"
-            className="w-full flex items-center justify-center px-4 py-2 border-2 border-[#84b3a8] rounded-md shadow-sm text-sm font-medium text-[#84b3a8] bg-sage-600 hover:bg-sage-700 hover:border-white mt-2 transition-colors"
+            className="w-full flex items-center justify-center px-4 py-3 rounded-lg text-base font-medium text-white bg-[#84b3a8] hover:bg-[#6d9a91] shadow-md hover:shadow-lg mt-3 transition-all"
             onClick={() => setIsOpen(false)}
           >
             Book a Session
