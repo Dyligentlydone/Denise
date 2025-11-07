@@ -242,8 +242,8 @@ export default function ContactPage() {
                       <div className="ml-4">
                         <h4 className="text-base font-semibold text-gray-900">Office Location</h4>
                         <p className="mt-1 text-gray-700">
-                          1234 Therapy Lane, Suite 200<br />
-                          San Francisco, CA 94110
+                          4829 E. Beltline Ave NE Ste 3<br />
+                          Grand Rapids, MI 49525
                         </p>
                         <a 
                           href="https://maps.google.com" 
@@ -262,7 +262,7 @@ export default function ContactPage() {
                       </div>
                       <div className="ml-4">
                         <h4 className="text-base font-semibold text-gray-900">Phone</h4>
-                        <p className="mt-1 text-gray-700">(555) 123-4567</p>
+                        <p className="mt-1 text-gray-700">(616) 951-1852</p>
                         <p className="text-sm text-gray-600 mt-1">
                           Available Mon-Fri, 9am-5pm
                         </p>
@@ -276,10 +276,10 @@ export default function ContactPage() {
                       <div className="ml-4">
                         <h4 className="text-base font-semibold text-gray-900">Email</h4>
                         <a 
-                          href="mailto:denise@therapyexample.com" 
+                          href="mailto:Therapy@denisepotter.com" 
                           className="mt-1 text-gray-700 hover:text-sage-600 transition-colors"
                         >
-                          denise@therapyexample.com
+                          Therapy@denisepotter.com
                         </a>
                         <p className="text-sm text-sage-500 mt-1">
                           I typically respond within 24-48 hours

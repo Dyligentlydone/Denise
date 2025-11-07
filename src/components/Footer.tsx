@@ -52,17 +52,17 @@ export default function Footer() {
               <div className="flex items-start mb-3">
                 <FaMapMarkerAlt className="h-5 w-5 text-sage-600 mt-1 mr-3 flex-shrink-0" />
                 <div>
-                  <p className="text-gray-700">123 Therapy Lane</p>
-                  <p className="text-gray-700">Healing City, HC 12345</p>
+                  <p className="text-gray-700">4829 E. Beltline Ave NE Ste 3</p>
+                  <p className="text-gray-700">Grand Rapids, MI 49525</p>
                 </div>
               </div>
               <div className="flex items-center mb-3">
                 <FaPhone className="h-4 w-4 text-sage-600 mr-3" />
-                <a href="tel:+1234567890" className="text-gray-700 hover:text-sage-700 transition-colors">(123) 456-7890</a>
+                <a href="tel:6169511852" className="text-gray-700 hover:text-sage-700 transition-colors">(616) 951-1852</a>
               </div>
               <div className="flex items-center mb-3">
                 <FaEnvelope className="h-4 w-4 text-sage-600 mr-3" />
-                <a href="mailto:info@therapyexample.com" className="text-gray-700 hover:text-sage-700 transition-colors">info@therapyexample.com</a>
+                <a href="mailto:Therapy@denisepotter.com" className="text-gray-700 hover:text-sage-700 transition-colors">Therapy@denisepotter.com</a>
               </div>
             </address>
           </div>

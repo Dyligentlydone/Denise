@@ -36,7 +36,7 @@ export default function Home() {
               </h1>
               
               <p className="text-lg md:text-xl text-sage-700 max-w-3xl mx-auto mb-10">
-                Compassionate, evidence-based therapy for individuals, couples, and families.
+                Integrative, trauma-informed therapy that helps you reconnect with yourself, heal past wounds, and find balance in the present.
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
