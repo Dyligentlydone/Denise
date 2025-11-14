@@ -52,7 +52,7 @@ export default function Footer() {
               <div className="flex items-start mb-3">
                 <FaMapMarkerAlt className="h-5 w-5 text-sage-600 mt-1 mr-3 flex-shrink-0" />
                 <div>
-                  <p className="text-gray-700">4829 E. Beltline Ave NE Ste 3</p>
+                  <p className="text-gray-700">4829 E. Beltline Ave NE STE 303</p>
                   <p className="text-gray-700">Grand Rapids, MI 49525</p>
                 </div>
               </div>

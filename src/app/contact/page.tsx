@@ -242,7 +242,7 @@ export default function ContactPage() {
                       <div className="ml-4">
                         <h4 className="text-base font-semibold text-gray-900">Office Location</h4>
                         <p className="mt-1 text-gray-700">
-                          4829 E. Beltline Ave NE Ste 3<br />
+                          4829 E. Beltline Ave NE STE 303<br />
                           Grand Rapids, MI 49525
                         </p>
                         <a 
@@ -296,7 +296,7 @@ export default function ContactPage() {
                         <ul className="mt-1 space-y-1 text-gray-700">
                           <li className="flex justify-between">
                             <span>Monday - Friday</span>
-                            <span>9:00 AM - 7:00 PM</span>
+                            <span>9:00AM - 7:00PM</span>
                           </li>
                           <li className="flex justify-between">
                             <span>Saturday</span>
