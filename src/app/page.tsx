@@ -40,13 +40,15 @@ export default function Home() {
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Link 
-                  href="/contact" 
+                <a 
+                  href="https://denise-potter.clientsecure.me/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="px-8 py-4 font-medium rounded-lg transition-colors duration-300 transform hover:scale-105"
                   style={{ backgroundColor: '#84b3a8', color: 'white' }}
                 >
                   Free Consultation
-                </Link>
+                </a>
                 <Link 
                   href="/about" 
                   className="px-8 py-4 font-medium rounded-lg transition-colors duration-300"

@@ -39,7 +39,7 @@ export default function Footer() {
               <li><Link href="/services" className="text-gray-700 hover:text-sage-700 transition-colors">Services</Link></li>
               <li><Link href="/resources" className="text-gray-700 hover:text-sage-700 transition-colors">Resources</Link></li>
               <li><Link href="/contact" className="text-gray-700 hover:text-sage-700 transition-colors">Contact</Link></li>
-              <li><Link href="/book" className="text-gray-700 hover:text-sage-700 transition-colors">Book a Session</Link></li>
+              <li><a href="https://denise-potter.clientsecure.me/" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-sage-700 transition-colors">Book a Session</a></li>
               <li><Link href="/privacy" className="text-gray-700 hover:text-sage-700 transition-colors">Privacy Policy</Link></li>
               <li><Link href="/terms" className="text-gray-700 hover:text-sage-700 transition-colors">Terms of Service</Link></li>
             </ul>

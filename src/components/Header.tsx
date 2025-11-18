@@ -58,12 +58,14 @@ export default function Header() {
                 {link.name}
               </Link>
             ))}
-            <Link
-              href="/book"
-              className="ml-4 inline-flex items-center px-4 py-2 border-2 border-[#84b3a8] text-sm font-medium rounded-md text-[#84b3a8] bg-sage-600 hover:bg-sage-700 hover:border-white transition-colors"
+            <a
+              href="https://denise-potter.clientsecure.me/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-[#84b3a8] hover:bg-[#6d9a91] rounded-lg transition-colors shadow-md hover:shadow-lg"
             >
               Book a Session
-            </Link>
+            </a>
           </nav>
 
           {/* Mobile menu button */}
@@ -105,13 +107,15 @@ export default function Header() {
               {link.name}
             </Link>
           ))}
-          <Link
-            href="/book"
+          <a
+            href="https://denise-potter.clientsecure.me/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="w-full flex items-center justify-center px-4 py-3 rounded-lg text-base font-medium text-white bg-[#84b3a8] hover:bg-[#6d9a91] shadow-md hover:shadow-lg mt-3 transition-all"
             onClick={() => setIsOpen(false)}
           >
             Book a Session
-          </Link>
+          </a>
         </div>
       </div>
     </header>

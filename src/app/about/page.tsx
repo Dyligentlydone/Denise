@@ -42,7 +42,7 @@ export default function AboutPage() {
                 <div className="relative w-full aspect-square overflow-hidden rounded-lg shadow-lg">
                   <img
                     src="/images/headshot.png"
-                    alt="Denise Potter, LCSW"
+                    alt="Denise Potter, LMSW"
                     className="w-full h-full"
                     style={{
                       display: 'block',
@@ -78,12 +78,12 @@ export default function AboutPage() {
                         fontWeight: 'bold',
                         color: 'white',
                         margin: 0
-                      }}>Denise Potter, LCSW</h3>
+                      }}>Denise Potter, LMSW</h3>
                       <p style={{
                         color: '#e6fffa',
                         margin: '0.25rem 0 0 0',
                         fontSize: '0.875rem'
-                      }}>Licensed Clinical Social Worker</p>
+                      }}>Licensed Master Social Worker</p>
                     </div>
                   </div>
                 </div>
@@ -118,7 +118,7 @@ export default function AboutPage() {
                     <p className="text-sage-800 italic mb-4">
                       "Starting therapy takes courage, and I'm here to meet you with compassion, curiosity, and respect. Let's take the next step together—to explore your true self, clarify where you want to be, and discover how to get there."
                     </p>
-                    <p className="text-sage-700 font-medium">— Denise Potter, LCSW</p>
+                    <p className="text-sage-700 font-medium">— Denise Potter, LMSW</p>
                   </div>
                 </div>
               </motion.div>
@@ -219,10 +219,6 @@ export default function AboutPage() {
                   </li>
                   <li className="flex items-start">
                     <span className="text-sage-600 mr-2">•</span>
-                    <span>Certified Clinical Hypnotherapist</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-sage-600 mr-2">•</span>
                     <span>Somatic Therapy / Trauma-Informed Care Training</span>
                   </li>
                 </ul>
@@ -230,12 +226,14 @@ export default function AboutPage() {
             </div>
             
             <div className="mt-12 text-center">
-              <Link 
-                href="/contact" 
+              <a 
+                href="https://denise-potter.clientsecure.me/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center px-6 py-3 border-2 border-[#84b3a8] text-base font-medium rounded-md text-white bg-[#84b3a8] hover:bg-sage-700 hover:border-white transition-colors"
               >
                 Schedule a Free Consultation
-              </Link>
+              </a>
             </div>
           </div>
         </div>
