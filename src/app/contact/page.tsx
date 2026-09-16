@@ -33,11 +33,19 @@ export default function ContactPage() {
     setIsSubmitting(true);
     
     try {
-      // In a real application, you would send this data to your backend
-      console.log('Form submitted:', formData);
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const data = await response.json();
       
-      // Simulate API call
-      await new Promise(resolve => setTimeout(resolve, 1500));
+      if (!response.ok) {
+        throw new Error(data.message || 'Failed to send message');
+      }
       
       setSubmitStatus({
         success: true,
@@ -53,9 +61,10 @@ export default function ContactPage() {
         message: ''
       });
     } catch (error) {
+      console.error('Error submitting form:', error);
       setSubmitStatus({
         success: false,
-        message: 'There was an error sending your message. Please try again later.'
+        message: 'There was an error sending your message. Please try again later or contact us directly at therapy@denisepotter.com.'
       });
     } finally {
       setIsSubmitting(false);
