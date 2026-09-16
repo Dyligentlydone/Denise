@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Poppins, Lora } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
@@ -22,8 +22,6 @@ export const metadata: Metadata = {
   title: "Authentic Self",
   description: "Professional therapy services for individuals, couples, and families. Specializing in anxiety, depression, and relationship issues. Book your session today.",
   keywords: ["therapy", "counseling", "mental health", "anxiety", "depression", "couples therapy", "family therapy"],
-  viewport: "width=device-width, initial-scale=1",
-  themeColor: "#f8f5f0",
   openGraph: {
     title: "Authentic Self",
     description: "Professional therapy services for individuals, couples, and families.",
@@ -32,6 +30,12 @@ export const metadata: Metadata = {
     locale: "en_US",
     type: "website",
   },
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  themeColor: "#f8f5f0",
 };
 
 export default function RootLayout({
